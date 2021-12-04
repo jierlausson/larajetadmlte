@@ -14,9 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->get('/dash', function () {
+    return view('dash.index');
+})->name('dash');
+
+Route::resource('/client', 'App\Http\Controllers\ClientController');
+
+//Route::middleware(['auth:sanctum', 'verified'])->get('/client/create', [ClientController::class, 'create'])->name('client.create');
