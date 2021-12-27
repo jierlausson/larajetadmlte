@@ -5,15 +5,15 @@
 
 Por gentileza, execute os passos abaixo para rodar essa aplicação:
 
-- [Instale um projeto novo do laravel (composer create-project laravel/laravel example-app)](https://laravel.com/docs/8.x/installation).
-- [Acesse o diretorio "example-app" e instale o Jetstream (composer require laravel/jetstream)](https://jetstream.laravel.com/2.x/installation.html).
-- [Baixe o adminLte (composer require jeroennoten/laravel-adminlte)](https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation).
-- [Instale o adminLte (php artisan adminlte:install)](https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation).
-- Crie um novo danco de dados "MySQL" chamado laravel.
-- [Rode as migrations (php artisan migrete)](https://laravel.com/docs/8.x/migrations).
-- [Inicie o serviço de host (php artisan serve)](https://laravel.com/docs/8.x/artisan).
-- Na tela inicial do sistema crie um novo usuário e faça o login.
-- Pronto, acesso liberado ao CRUD.
+- [Instale um projeto novo do laravel ==> composer create-project laravel/laravel example-app](https://laravel.com/docs/8.x/installation).
+- [Acesse o diretorio "example-app" e instale o Jetstream ==> composer require laravel/jetstream](https://jetstream.laravel.com/2.x/installation.html).
+- [Baixe o adminLte ==> composer require jeroennoten/laravel-adminlte](https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation).
+- [Instale o adminLte  ==> php artisan adminlte:install](https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation).
+- [Crie um novo banco de dados "MySQL" chamado laravel](https://www.mysql.com).
+- [Rode as migrations ==> php artisan migrete](https://laravel.com/docs/8.x/migrations).
+- [Inicie o serviço de host ==> php artisan serve](http://localhost:8000).
+- [Na tela inicial do sistema crie um novo usuário e faça o login](http://localhost:8000/register).
+- [Pronto, acesso liberado ao CRUD](http://localhost:8000/dash).
 
 ## License
 
